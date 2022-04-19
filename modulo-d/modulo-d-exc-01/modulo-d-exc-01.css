@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(4, 174, 216);
+  font: medium 15pt Arial;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.377);
+}
+
+footer {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font: normal 12pt Arial;
+}
+
+footer p a {
+  text-decoration: none; color: inherit;
+}
+
+div#textoHorario {
+  margin: auto;
+  text-align: center;
+  padding: 30px 20px;
+  font: normal 12pt Arial;
+}
+
+div.fotoHorario {
+  display: flex;
+  justify-content: center;
+}
+
+img#imgHorario {
+  border: 2px solid;
+  border-color: rgb(4, 174, 216);
+  border-radius: 50%; 
+  height: 200px;
+  width: 200px;
+  text-decoration: none;
+}
+
+
+
+
+

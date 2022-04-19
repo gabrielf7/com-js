@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./modulo-e-exc-02.css">
+    <title>Início | Execício 02</title>
+  </head>
+
+  <!-- <body> -->
+  <body>
+    <header>
+      <h1>Gerador de Tabuada</h1>
+    </header>
+    
+    <main id="main00">
+      <div id="areaGerarTabuada">
+        <div>
+          <label for="numeroEscolhido">
+            Número: <input type="number" id="numeroEscolhido"/>
+          </label>
+          <button class="espaco" id="buttonNumeroEscolhido">Gerar Tabuada</button>
+        </div>
+        <button id="limparTudo" alt="Limpar todos os campos" >&#128465;</button>
+      </div>
+      
+      <section>
+        <div>
+          Adição
+          <select name="tabuada" class="tabuada" id="tab-adicao" size="10"></select>
+        </div>
+        <div>
+          Divisão
+          <select name="tabuada" class="tabuada" id="tab-divisao" size="10"></select>
+        </div>
+        <div>
+          Multiplicação
+          <select name="tabuada" class="tabuada" id="tab-multiplicacao" size="10"></select>
+        </div>
+        <div>
+          Subtração
+          <select name="tabuada" class="tabuada" id="tab-subtracao" size="10"></select>
+        </div>
+      </section>
+
+      <section class="espaco" id="areaButtonGerarImagem">
+        <div class="displayEsconder" id="msgButtonGerarImagem" >
+          &#x2191; Para gerar imagem selecione um cálculo de cada operação &#x2193;
+        </div>
+        <button class="displayEsconder" id="buttonGerarImagem"></button>
+      </section>
+
+      <section id="imagemConteudo"></section>
+      <div id="imagemGerada"></div>
+    </main>
+    
+    <footer>
+      <p>&copy; <a href="https://github.com/gabrielf7" target="_blank">
+        GabrielF7
+      </a></p>
+    </footer>
+
+    <script src="./modulo-e-exc-02.js"></script>
+    <script src="./html2canvas.min.js"></script>
+  </body>
+
+</html>

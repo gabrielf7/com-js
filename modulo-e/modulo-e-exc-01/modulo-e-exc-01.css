@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(4, 174, 216);
+  font: normal 12pt Arial;
+}
+/* *, :before, :after {
+  box-sizing: border-box;
+} */
+/* input[type=number] {
+  -moz-appearance:textfield;
+} */
+
+header {
+  text-align: center;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main01, .main02 {
+  width: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.377);
+}
+
+.main01 h3, .main02 h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#Form {
+  display: flex;
+  flex-direction: column;
+}
+
+#Form label {
+  padding-top: 10px;
+}
+
+.main01 div {
+  margin: auto;
+  text-align: center;
+}
+
+#buttonContar, #limparHistDeContas {
+  width: 125px;
+  border-radius: 10px; 
+  font: normal 10pt Arial;
+  color: white;
+  border-color: white ;
+  background-color: rgb(4, 174, 216) ;
+}
+
+#resultado  {
+  padding: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main02 {
+  margin: 0px;
+}
+
+.main02 div {
+  text-align: right;
+}
+
+.funcHistorico {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#QtdDeContas {
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(4, 174, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font: normal 15pt Verdana;
+  box-shadow: 2px 2px 10px rgba(4, 174, 216, 0.7);
+}
+
+#historicoDeContas {
+  height: 200px;
+  overflow: auto;
+}
+
+.espaco {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+footer {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font: normal 12pt Arial;
+}
+
+footer p a {
+  text-decoration: none; color: inherit;
+}

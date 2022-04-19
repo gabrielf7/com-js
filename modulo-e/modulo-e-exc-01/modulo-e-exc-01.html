@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./modulo-e-exc-01.css">
+    <title>Início | Execício 01</title>
+  </head>
+
+  <!-- <body> -->
+  <body onload="carregar()">
+    <header>
+      <h1>Vamos Contar</h1>
+    </header>
+    
+    <main>
+      <div class="main01">
+        <h3>Contar</h3>
+        <section id="Form" >
+          <label for="inicio">
+            Início: 
+          </label>
+          <input type="number" id="inicio"/>
+          <label for="fim">
+            Fim: 
+          </label>
+          <input type="number" id="fim"/>
+          <label for="intervalo">
+            Intervalo: 
+          </label>
+          <input type="number" id="intervalo"/>
+        </section>
+  
+        <div>
+          <button class="espaco" id="buttonContar">Contar</button>
+        </div>
+        
+        <section id="mgsResultado">Preencha os campos...</section>
+        <section id="resultado" ></section>
+      </div>
+      <div>
+        <div class="main02">
+          <h3>Histórico de contas</h3>
+          <div class="funcHistorico">
+            <div id="QtdDeContas" >0</div>
+            <button class="espaco" id="limparHistDeContas">Limpar Tudo</button>
+          </div>
+          <section id="historicoDeContas" >
+            Esperando contas feitas...
+          </section>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; <a href="https://github.com/gabrielf7" target="_blank">
+        GabrielF7
+      </a></p>
+    </footer>
+
+    <script src="modulo-e-exc-01.js"></script>
+  </body>
+
+</html>
