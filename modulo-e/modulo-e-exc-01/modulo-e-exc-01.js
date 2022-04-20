@@ -76,3 +76,4 @@ function carregar() {
   }
   limparHistDeContas.addEventListener("click", LimparHistoricoDeConta);
 }
+window.addEventListener('load', carregar);

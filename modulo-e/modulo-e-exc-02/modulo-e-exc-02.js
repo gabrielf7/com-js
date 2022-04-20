@@ -130,5 +130,4 @@ function carregar() {
   }
   buttonNumeroEscolhido.addEventListener("click", Tabuada);
 }
-
 window.addEventListener('load', carregar);

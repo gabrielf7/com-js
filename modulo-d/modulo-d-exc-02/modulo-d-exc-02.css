@@ -1,6 +1,6 @@
 body {
   background-color: rgb(4, 174, 216);
-  font: medium 15pt Arial;
+  font: normal 12pt Arial;
 }
 
 input[type=number] {
@@ -74,4 +74,10 @@ img#imgVerificadora {
   border-radius: 50%; 
   height: 200px;
   width: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: auto;
+  }
 }

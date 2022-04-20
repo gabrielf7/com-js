@@ -21,7 +21,11 @@ function carregar() {
   } else {
     textoHorario.innerHTML = "Aconteceu algum erro, tente novamente mais tarde!";
   }
+}
+window.addEventListener('load', carregar);
 
+// Dia e Noite
+   
   // if(hora < 6 || (hora >= 18 && hora < 24) ) {
   //   imgHorario.src = "./img-noite-02.jpeg";
   //   corpo.style.backgroundColor = "black";
@@ -31,4 +35,3 @@ function carregar() {
   // } else {
   //   textoHorario.innerHTML = "Aconteceu algum erro, tente novamente mais tarde!";
   // }
-}

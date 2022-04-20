@@ -109,3 +109,14 @@ footer {
 footer p a {
   text-decoration: none; color: inherit;
 }
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: auto;
+    flex-direction: column;
+  }
+  .main01, .main02 {
+    width: auto;
+    margin-bottom: 30px;
+  }
+}

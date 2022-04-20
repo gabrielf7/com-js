@@ -123,3 +123,22 @@ footer {
 footer p a {
   text-decoration: none; color: inherit;
 }
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: auto;
+  }
+  main .sectionCalc {
+    flex-direction: column;
+  }
+  main .sectionCalc div {
+    text-align: center;
+  }
+  main .sectionCalc div select {
+    width: 100%;
+    height: auto;
+  }
+  #msgButtonGerarImagem {
+    text-align: center;
+  }
+}
