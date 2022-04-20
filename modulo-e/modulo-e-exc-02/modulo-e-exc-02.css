@@ -126,7 +126,7 @@ footer p a {
 
 @media only screen and (max-width: 800px) {
   main {
-    width: auto;
+    width: inherit;
   }
   main .sectionCalc {
     flex-direction: column;
@@ -137,8 +137,12 @@ footer p a {
   main .sectionCalc div select {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
   }
   #msgButtonGerarImagem {
     text-align: center;
+  }
+  #imagemGerada {
+    width: auto;
   }
 }
