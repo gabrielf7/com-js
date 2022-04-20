@@ -2,11 +2,6 @@ function carregar() {
   let areaLink = window.document.getElementById("areaLink"); 
   let url_atual = window.location.href;
 
-  console.log(window.location.host);
-  console.log(window.location.pathname);
-  console.log(window.location.hostname);
-  console.log(window.location.host + window.location.pathname);
-
   function CriarLink(caminho, link, linkTitulo){
     let inserirConteudo = `
       <div>
