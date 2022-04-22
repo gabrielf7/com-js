@@ -23,5 +23,8 @@ function carregar() {
   CriarLink("Módulo E : '/modulo-e/modulo-e-exc-02/'", "/modulo-e/modulo-e-exc-02/modulo-e-exc-02.html", 
     "Gerador de Tabuada"
   );
+  CriarLink("Módulo F : '/modulo-f/modulo-f-exc-01/'", "/modulo-f/modulo-f-exc-01/modulo-f-exc-01.html", 
+    "Analisador de Números"
+  );
 }
 window.addEventListener('load', carregar);

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./modulo-f-exc-01.css">
+    <title>Início | Execício 01</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Analisador de Número</h1>
+    </header>
+    
+    <main>
+      <div id="areaDeNumeroEscolhido">
+        <div class="areaDeNumeroEscolhidoMobile">
+          <label for="numeroEscolhido">
+            Número (Entre 1 a 100): <input class="espaco" type="number" id="numeroEscolhido"/>
+          </label>
+          <button class="espaco" id="btnNumeroEscolhido">Adicionar</button>
+        </div>
+        
+        <div class="areaLixeira">
+          <div class="btnAreaLixeira">
+            <button id="btnLimparTudo" >&#128465;</button>
+            <hr>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+      <section class="mainConteudo">
+        <section class="espaco">
+          <div>
+            <select name="sequenciaDeNumeros" id="seqNumeroEscolhido" size="10"></select>
+          </div>
+          <button class="espaco" id="btnFinalizar">Finalizar</button>
+        </section>
+
+        <section class="espaco" id="resultadoDaSEQ"></section>
+      </section>
+
+    </main>
+    
+    <footer>
+      <p>&copy; <a href="https://github.com/gabrielf7" target="_blank">
+        GabrielF7
+      </a></p>
+    </footer>
+
+    <script src="./modulo-f-exc-01.js"></script>
+  </body>
+
+</html>

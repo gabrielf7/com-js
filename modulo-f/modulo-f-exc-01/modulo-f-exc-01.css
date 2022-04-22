@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(4, 174, 216);
+  font: normal 10pt Arial;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+  font: normal 10pt Arial;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.377);
+}
+
+#areaDeNumeroEscolhido {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btnNumeroEscolhido, #btnFinalizar {
+  width: 125px;
+  padding: 2px 2px;
+  border-radius: 10px; 
+  cursor: pointer;
+  font: normal 10pt Arial;
+  border: none;
+  color: white;
+  background-color: rgb(4, 174, 216);
+  box-shadow: 2px 2px 10px rgba(4, 174, 216, 0.7);
+  text-align: center;
+}
+
+#btnLimparTudo {
+  margin: 0;
+  width: 60px;
+  text-align: center;
+  border: 0;
+  background-color: inherit;
+  cursor: grabbing;
+  font: normal 18pt Arial;
+}
+
+#btnNumeroEscolhido:active, #btnLimparTudo:active, #btnFinalizar:active {
+  transform: scale(0.95);
+}
+
+.mainConteudo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#btnFinalizar {
+  text-align: center;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main section select {
+  margin-top: 10px;
+  width: 45ex;
+  height: auto;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid rgb(198, 235, 245);
+  box-shadow: 2px 2px 10px rgba(4, 174, 216, 0.4);
+}
+
+.btnAreaLixeira {
+  display: flex; height: 90%;
+}
+
+.areaLixeira:active {
+  transform: scale(0.95);
+}
+
+.resultadoDaSEQ {
+  display: flex;
+  flex-direction: column;
+}
+
+.espaco {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  font: normal 12pt Arial;
+}
+
+footer p a {
+  text-decoration: none; color: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: inherit;
+  }
+  .mainConteudo {
+    flex-direction: column;
+  }
+  section div {
+    margin-top: 15px;
+  }
+  #btnNumeroEscolhido, #btnFinalizar {
+    margin-top: 10px;
+  }
+  .espaco {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .areaDeNumeroEscolhidoMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  #numeroEscolhido {
+    width: 32ex;
+  }
+  #btnLimparTudo {
+    font: normal 15pt Arial;
+  }
+  .btnAreaLixeira {
+    display: flex; height: 70%;
+  }
+}
