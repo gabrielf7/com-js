@@ -45,7 +45,7 @@ function carregar() {
 
   // Exibir o resultado dos processos da sequência
   function FinalizarSolicitacao() {
-    if(seqNumeroEscolhido.innerHTML == "" || listaDeSequencia.length == 0) {
+    if(listaDeSequencia.length == 0) {
       window.alert("[Aviso] Ação inválida, o campo de sequência está vazio, adicione um número entre 1 a 100.");
     } else {
       resultadoDaSEQ.innerHTML = "";
