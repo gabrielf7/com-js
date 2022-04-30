@@ -1,4 +1,4 @@
-<img src="https://github.com/gabrielf7/complicando-exercicios-js/blob/main/javascript-300_300.png" align="right" width="300">
+<img src="https://github.com/gabrielf7/complicando-exercicios-js/blob/main/src/javascript-300_300.png" align="right" width="300">
 
 # Exercícios de Javascript
 
