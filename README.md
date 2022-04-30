@@ -10,9 +10,9 @@ da linguagem até o uso de funções.
 > Todas as [atividades dos módulos](https://github.com/gabrielf7/code-programing-exercises/tree/master/Code_Javascript/Aprender-JS-na-Pratica-02-Curso_em_V%C3%ADdeo) durante o 
 > [Curso de Javascript](https://www.cursoemvideo.com/curso/javascript/).
 
-## Testar os execícios
+## Testar os exercícios
 
-Link -> [Execícios](https://gabrielf7.github.io/complicando-exercicios-js/)
+Link -> [Exercícios](https://gabrielf7.github.io/complicando-exercicios-js/)
  
 ## Participante
 
